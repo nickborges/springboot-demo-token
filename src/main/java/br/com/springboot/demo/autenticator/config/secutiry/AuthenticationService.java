@@ -1,4 +1,4 @@
-package br.com.springboot.demo.autenticator.secutiry;
+package br.com.springboot.demo.autenticator.config.secutiry;
 
 import br.com.springboot.demo.autenticator.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;

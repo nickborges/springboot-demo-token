@@ -11,6 +11,9 @@ autenticação via JJWT
 - Criar a classe de configuração, SecurityConfigurations
 - Criar a classe de serviço, AutenticacaoService
 - Criar o controller /auth
+    * AuthenticationManager: cria a autenticação e geração do token (deve sobrescrever o método authenticationManager na classe SecurityConfigurations para que possa ser injetado no controller)
+- Criar a classe ExceptionsHandler: para capturar AuthenticationException captura o erro ao tentar gerar o token (retornar 400)
+- Criar a classe TokenService: para gerar o token
 
 -Exemplos de chamada:
     * http://localhost:8082/

@@ -1,5 +1,7 @@
 package br.com.springboot.demo.autenticator.model;
 
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -9,7 +11,11 @@ import java.util.Collection;
 import java.util.List;
 
 @Entity
+@Getter
+@EqualsAndHashCode
 public class User implements UserDetails {
+
+    private static final long serialVersionUID = 1L;
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
