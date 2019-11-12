@@ -11,7 +11,7 @@ autenticação via JJWT
 
 - Habilitar o Spring Security com a dependência(JJWT)
 - Habilitar a jpa
-- Criar a classe de dominio User
+- Criar a classe de dominio User e Perfil
 - Criar a classe de configuração, SecurityConfigurations:
 
 - Criar a classe de serviço, AutenticacaoService:
