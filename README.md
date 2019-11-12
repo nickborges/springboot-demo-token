@@ -13,6 +13,8 @@ autenticação via JJWT
 - Habilitar a jpa
 - Criar a classe de dominio User e Perfil
 - Criar a classe de configuração, SecurityConfigurations:
+- exemplo de chamada no browser(abre um console pra login):
+    * http://localhost:8082/
 
 - Criar a classe de serviço, AutenticacaoService:
 - Criar a Entity, Perfil que implementa GrantedAuthority:
