@@ -1,4 +1,4 @@
-package br.com.springboot.demo.autenticator.domain;
+package br.com.springboot.demo.autenticator.model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

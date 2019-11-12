@@ -1,6 +1,6 @@
 package br.com.springboot.demo.autenticator.repository;
 
-import br.com.springboot.demo.autenticator.domain.User;
+import br.com.springboot.demo.autenticator.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
