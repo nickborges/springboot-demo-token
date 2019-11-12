@@ -15,7 +15,7 @@ autenticação via JJWT
 - Criar a classe ExceptionsHandler: para capturar AuthenticationException captura o erro ao tentar gerar o token (retornar 400)
 - Criar a classe TokenService: para gerar o token
 
--Exemplos de chamada:
+- Exemplos de chamada:
     * http://localhost:8082/
     * http://localhost:8080/auth { "email": "user@gmail.com", "password": "abcd"}
 
