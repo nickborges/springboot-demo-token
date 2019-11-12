@@ -11,8 +11,6 @@ import javax.persistence.Id;
 @Getter
 public class Perfil implements GrantedAuthority {
 
-    private static final long serialVersionUID = 1L;
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

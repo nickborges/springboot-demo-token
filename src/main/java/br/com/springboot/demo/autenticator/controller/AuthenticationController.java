@@ -25,7 +25,7 @@ public class AuthenticationController {
     TokenService tokenService;
 
     @PostMapping
-    public ResponseEntity authentication(@RequestBody @Valid UserRequest userRequest){
+    public ResponseEntity<TokenResponse> execute(@RequestBody @Valid UserRequest userRequest){
 
         Authentication authentication = authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(userRequest.getEmail(), userRequest.getPassword())
@@ -33,7 +33,7 @@ public class AuthenticationController {
 
         String token = tokenService.createToken(authentication);
 
-        return ResponseEntity.ok(TokenResponse.builder()
+        return ResponseEntity.ok().body(TokenResponse.builder()
                 .token(token)
                 .type("Bearer")
                 .build());
