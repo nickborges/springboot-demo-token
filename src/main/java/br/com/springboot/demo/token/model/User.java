@@ -1,4 +1,4 @@
-package br.com.springboot.demo.autenticator.model;
+package br.com.springboot.demo.token.model;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

@@ -1,6 +1,6 @@
-package br.com.springboot.demo.autenticator.config.secutiry;
+package br.com.springboot.demo.token.config.secutiry;
 
-import br.com.springboot.demo.autenticator.repository.UserRepository;
+import br.com.springboot.demo.token.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

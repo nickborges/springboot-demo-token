@@ -1,4 +1,4 @@
-package br.com.springboot.demo.autenticator.model;
+package br.com.springboot.demo.token.model;
 
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;

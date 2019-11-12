@@ -1,4 +1,4 @@
-package br.com.springboot.demo.autenticator.config.secutiry;
+package br.com.springboot.demo.token.config.secutiry;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

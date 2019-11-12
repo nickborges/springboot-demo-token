@@ -1,6 +1,6 @@
-package br.com.springboot.demo.autenticator.config.secutiry;
+package br.com.springboot.demo.token.config.secutiry;
 
-import br.com.springboot.demo.autenticator.model.User;
+import br.com.springboot.demo.token.model.User;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Value;

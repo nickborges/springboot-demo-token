@@ -1,6 +1,6 @@
-package br.com.springboot.demo.autenticator.repository;
+package br.com.springboot.demo.token.repository;
 
-import br.com.springboot.demo.autenticator.model.User;
+import br.com.springboot.demo.token.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

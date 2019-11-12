@@ -12,4 +12,4 @@ pluginManagement {
 		}
 	}
 }
-rootProject.name = 'springboot-demo-auth'
+rootProject.name = 'springboot-demo-token'

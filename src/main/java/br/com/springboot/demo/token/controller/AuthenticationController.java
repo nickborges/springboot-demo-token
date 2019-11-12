@@ -1,8 +1,8 @@
-package br.com.springboot.demo.autenticator.controller;
+package br.com.springboot.demo.token.controller;
 
-import br.com.springboot.demo.autenticator.config.secutiry.TokenService;
-import br.com.springboot.demo.autenticator.domain.TokenResponse;
-import br.com.springboot.demo.autenticator.domain.UserRequest;
+import br.com.springboot.demo.token.config.secutiry.TokenService;
+import br.com.springboot.demo.token.domain.TokenResponse;
+import br.com.springboot.demo.token.domain.UserRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

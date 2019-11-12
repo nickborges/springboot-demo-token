@@ -1,4 +1,4 @@
-package br.com.springboot.demo.autenticator;
+package br.com.springboot.demo.token;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package br.com.springboot.demo.autenticator.domain;
+package br.com.springboot.demo.token.domain;
 
 import lombok.Getter;
 

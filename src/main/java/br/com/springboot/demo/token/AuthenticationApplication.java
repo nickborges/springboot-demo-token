@@ -1,4 +1,4 @@
-package br.com.springboot.demo.autenticator;
+package br.com.springboot.demo.token;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

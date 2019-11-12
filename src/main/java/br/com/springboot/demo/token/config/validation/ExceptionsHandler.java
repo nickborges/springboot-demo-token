@@ -1,4 +1,4 @@
-package br.com.springboot.demo.autenticator.config.validation;
+package br.com.springboot.demo.token.config.validation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
