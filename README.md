@@ -7,7 +7,7 @@ autenticação via JJWT
 - Habilitar o jpa
 - Criar a Entity, Perfil que implementa GrantedAuthority:
     * GrantedAuthority = diz para o spring que é a classe que representa o perfil de acesso.
-- Colocar na Entity Usuario, implements UserDetails
+- Colocar na Entity User, implements UserDetails
 - Criar a classe de configuração, SecurityConfigurations
 - Criar a classe de serviço, AutenticacaoService
 - Criar o Controller:
