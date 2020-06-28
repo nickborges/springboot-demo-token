@@ -15,9 +15,16 @@ autenticação via JJWT
 - Criar a classe ExceptionsHandler: para capturar AuthenticationException captura o erro ao tentar gerar o token (retornar 400)
 - Criar a classe TokenService: para gerar o token
 
-- Exemplos de chamada:
-    * http://localhost:8082/
-    * http://localhost:8080/auth { "email": "user@gmail.com", "password": "abcd"}
+- Exemplo de chamada para gerar o Token:
+    ````
+      curl --location --request POST 'http://localhost:8083/auth' \
+      --header 'Authorization: Basic dXNlckBnbWFpbC5jb206JDJhJDEwJFFVOVpLRWpmZTVJUXRMaTdNU0x6SXV1Z3Zwcko3RERNMVYub21GczZha2ZyaUhWbG5jejVT' \
+      --header 'Content-Type: application/json' \
+      --data-raw '{
+        "email": "user@gmail.com", 
+        "password": "abcd"
+      }'
+    ````
 
 - Observações:
     * Security: autenticação tradicional, com usuário e senha, sempre que o usuário efetua login, o servidor cria uma sessão para guardar essas informações e a cada requisição o servidor valida os dados desta requisição com a sessão armazenada em memória (precisando ter bastante espaço em memória para armezenar cada requisição). Isso não atende a boa prática(princípio) do modelo REST, o ideal é que a autenticação seja stateless(no caso do token).
